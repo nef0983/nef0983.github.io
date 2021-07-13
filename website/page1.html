@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript">
+  $(function() {
+
+    $("#span").click(function() {
+      $("p").text("hi everyone");
+    })
+
+
+    $(".box-a").mouseenter(function() {
+      $(".box-b").hide(400);
+    })
+    $(".box-a").mouseleave(function() {
+      $(".box-b").show(400);
+    })
+
+    $(".box-b").mouseenter(function() {
+      $(".box-a").hide(400);
+    })
+    $(".box-b").mouseleave(function() {
+      $(".box-a").show(400);
+    })
+
+    $("#btn1").click(function() {
+      $(".box-a").css('background-color', 'rgba(187, 7, 10, 0.58)');
+
+    })
+
+    $("#btn2").click(function() {
+      $(".box-b").css('background-color', 'rgba(176, 7, 187, 0.58)');
+
+    })
+
+  })
+</script>
+
+
+
+<body>
+  <div class="text-area">
+    <span id="span">click me</span>
+    <p>test area</p>
+    <p>text area</p>
+    <p>test area</p>
+  </div>
+
+  <nav>
+    <a href="page1.html">AA</a>
+    <a href="page1.html">BB</a>
+    <a href="page1.html">CC</a>
+    <a href="page1.html">DD</a>
+  </nav>
+
+  <div class="color-box">
+
+    <div class="box-a"> </div>
+    <div class="box-b"> </div>
+  </div>
+
+  <div class="btn">
+    <input id="btn1" type="button" value="灰色變紅色">
+    <input id="btn2" type="button" value="綠色變紫色">
+  </div>
+
+<div class="ani-box">
+
+</div>
+
+
+
+</body>
+
+</html>
