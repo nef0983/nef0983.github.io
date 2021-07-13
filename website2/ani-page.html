@@ -14,11 +14,20 @@
 <script type="text/javascript">
 
 $(function () {
-  $("#bnt").click(function () {
-    $(".ani-box").css('animation-play-state', 'paused');
-  });
 
-   
+  $("#bnt").click(function () {
+
+    if($(".ani-box").css('animation-play-state')=='running'){
+      $(".ani-box").css('animation-play-state', 'paused');
+      $("#bnt").val("Run");
+    }
+    else{
+      $(".ani-box").css('animation-play-state', 'running');
+      $("#bnt").val("Pauesd");
+    }
+
+  })
+
 
 })
 
