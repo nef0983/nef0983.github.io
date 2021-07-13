@@ -1,12 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+
+  <link rel="stylesheet" href="style.css">
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+<script type="text/javascript">
+
+$(function () {
+  $("#bnt").click(function () {
+    $(".ani-box").css('animation-play-state', 'paused');
+  });
+
+   $("#bnt").click(function () {
+     $(".ani-box").css('animation-play-state', 'running');
+    })
+
+})
+
+</script>
+
 <body>
-  <div class="ani-box">
+  <div class="ani-box"></div>
+
+
+  <input id="bnt" type="button" name="" value="Paused">
+
 </body>
+
 </html>
