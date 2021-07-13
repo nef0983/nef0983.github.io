@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title></title>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+
+<style media="screen">
+  .title{
+    padding: 10px;
+    background-color:deepskyblue;
+    font-size: 30px;
+    cursor:pointer;
+  }
+  .text-area{
+    padding: 10px;
+    background-color: orange;
+    display:none;
+  }
+  .close{
+    display: none;
+  }
+</style>
+
+<script type="text/javascript">
+
+  $(function(){
+
+    $(".title").click(function(){
+      $(".text-area").toggleClass('close');
+
+    })
+  })
+</script>
+
+
+<body>
+
+
+  <div class="title"> 產品定義</div>
+  <div class="text-area">
+    消費者購買的不只是產品的實體，
+    還包括產品的核心利益（即向消費者提供的基本效用和利益）。
+    產品的實體稱為一般產品，即產品的基本形式，只有依附於產品實體，
+    產品的核心利益才能實現。期望產品是消費者採購產品時期望的一系列屬性和條件。
+    附加產品是產品的第四層次，即產品包含的附加服務和利益。
+    產品的第五層次是潛在產品，潛在產品預示著該產品最終可能的所有增加和改變。
+  </div>
+
+
+</body>
+
+</html>
