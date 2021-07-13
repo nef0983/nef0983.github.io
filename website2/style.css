@@ -1,6 +1,4 @@
-*{
-  margin: auto;
-}
+
 @keyframes box1 {
   0%   {background-color:red;    left:0px; top:0px;}
  12.5% {background-color:orange; left:100px; top:0px;}
