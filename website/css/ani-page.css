@@ -2,7 +2,6 @@
 
 
 @keyframes box1 {
-
   0%   {background-color:red;    left:0px; top:0px;}
  12.5% {background-color:orange; left:100px; top:0px;}
  25%   {background-color:yellow; left:200px; top:0px;}
@@ -12,6 +11,12 @@
  75%   {background-color:purple;  left:0px; top:200px;}
  87.5% {background-color:deeppink; left:0px; top:100px;}
  100%  {background-color:red;    left:0px; top:0px;}
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
 
 }
 .contain {
@@ -43,6 +48,9 @@
 }
 
 #bnt {
+  border-color: red;
+  border-width: 2px;
+  border-style: dashed;
   background-color: orange;
   width: 100px;
   height: 40px;
