@@ -24,7 +24,7 @@ $(function () {
     }
     else{
       $(".ani-box").css('animation-play-state', 'running');
-      $("#bnt").val("Pauesd");
+      $("#bnt").val("Paues");
     }
 
   })
@@ -35,10 +35,21 @@ $(function () {
 </script>
 
 <body>
-  <div class="ani-box"></div>
 
 
-  <input id="bnt" type="button" name="" value="Paused">
+
+  <div class="contain">
+      <div class="ani-box"></div>
+
+  </div>
+
+<div class="bnt">
+  <input id="bnt" type="button"  value="Pause"> 
+</div>
+
+
+
+
 
 </body>
 
