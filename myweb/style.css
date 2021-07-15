@@ -1,0 +1,16 @@
+*{
+  padding: 10px;
+  margin: 10px;
+}
+  a {
+    background-color:#fa0;
+    text-decoration: none;
+    padding: 10px;
+    color: red;
+    transition:all 0.5s ;
+  }
+
+a:hover{
+  background-color: rgb(28, 161, 182)
+
+}
