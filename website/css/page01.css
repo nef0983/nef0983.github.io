@@ -1,4 +1,5 @@
-<style media="screen">span {
+span {
+  cursor: pointer;
   color: blue;
 }
 
@@ -19,6 +20,7 @@ nav a {
 nav a:hover {
   background-color: brown;
   transition: 1s;
+
 }
 
 .color-box{
@@ -40,6 +42,8 @@ nav a:hover {
   background-color: green;
   display: inline-block;
 }
+
+
 
 .btn input {
   background-color: rgb(235, 171, 88);
@@ -68,9 +72,15 @@ nav a:hover {
   animation-iteration-count:infinite;
 }
 
+.ani-box-a{
+  background-color:rgba(181, 10, 13, 0.73);
+  transition: 1s;
+}
 
-
+.ani-box-b{
+  background-color:rgba(176, 7, 187, 0.58);
+  transition: 1s;
 }
 
 
-</style>
+}

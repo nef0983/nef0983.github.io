@@ -1,0 +1,15 @@
+
+  .title{
+    padding: 10px 20px;
+    background-color:deepskyblue;
+    font-size: 30x;
+    cursor:pointer;
+  }
+  .text-area{
+    padding: 10px;
+    background-color: orange;
+
+  }
+  .close{
+    display:none;
+  }

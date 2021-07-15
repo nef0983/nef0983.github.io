@@ -18,28 +18,14 @@
       $("p").text("hi everyone");
     })
 
-
-    $(".box-a").mouseenter(function() {
-      $(".box-b").hide(400);
-    })
-    $(".box-a").mouseleave(function() {
-      $(".box-b").show(400);
-    })
-
-    $(".box-b").mouseenter(function() {
-      $(".box-a").hide(400);
-    })
-    $(".box-b").mouseleave(function() {
-      $(".box-a").show(400);
-    })
-
     $("#btn1").click(function() {
-      $(".box-a").css('background-color', 'rgba(187, 7, 10, 0.58)');
+      $(".box-a").addClass('ani-box-a');
 
     })
 
     $("#btn2").click(function() {
-      $(".box-b").css('background-color', 'rgba(176, 7, 187, 0.58)');
+      $(".box-b").addClass('ani-box-b');
+
 
     })
 
@@ -57,10 +43,10 @@
   </div>
 
   <nav>
-    <a href="page1.html">AA</a>
-    <a href="page1.html">BB</a>
-    <a href="page1.html">CC</a>
-    <a href="page1.html">DD</a>
+    <a href="page01.html">AA</a>
+    <a href="page01.html">BB</a>
+    <a href="page01.html">CC</a>
+    <a href="page01.html">DD</a>
   </nav>
 
   <div class="color-box">
