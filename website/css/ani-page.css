@@ -14,27 +14,23 @@
  100%  {background-color:red;    left:0px; top:0px;}
 
 }
-.contain{
-
-height: 250px;
-width: 250px;
-margin: 10px auto;
-padding: 10px;
-background-color: #aaa;
+.contain {
+  height: 250px;
+  width: 250px;
+  margin: 10px auto;
+  padding: 10px;
+  background-color: #aaa;
 }
 
-
 .ani-box {
-
-  border-radius:100%;
+  border-radius: 100%;
   width: 50px;
   height: 50px;
-  position:relative;
+  position: relative;
   animation-name: box1;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
-
 }
 
 .ani-box:hover {
@@ -42,15 +38,13 @@ background-color: #aaa;
 }
 
 .bnt {
-margin: 20px auto;
-
-text-align: center;
+  margin: 20px auto;
+  text-align: center;
 }
 
-#bnt{
-
-background-color: red;
-width: 100px;
-height:40px;
-font-size: 30px;
+#bnt {
+  background-color: red;
+  width: 100px;
+  height: 40px;
+  font-size: 30px;
 }
