@@ -20,14 +20,17 @@
 
 }
 .contain {
-  height: 250px;
   width: 250px;
+  height: 250px;
+
   margin: 10px auto;
   padding: 10px;
   background-color: #aaa;
+  position: relative;
 }
 
 .ani-box {
+
   border-radius: 100%;
   width: 50px;
   height: 50px;
@@ -38,21 +41,16 @@
   animation-timing-function: linear;
 }
 
-.ani-box:hover {
-  animation-play-state: paused;
-}
 
 .bnt {
-  margin: 20px auto;
+  background-color: #fa9;
+  width:60px;
+  margin: 0px auto;
+  font-size: 25px;
+  color: #f00;
+  cursor: pointer;
   text-align: center;
-}
+  padding: 10px;
+  margin: 30px auto;
 
-#bnt {
-  border-color: red;
-  border-width: 2px;
-  border-style: dashed;
-  background-color: orange;
-  width: 100px;
-  height: 40px;
-  font-size: 20px;
 }
