@@ -5,118 +5,155 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>水彩畫廊</title>
+
+
 </head>
+
 
 <style media="screen">
   * {
-    margin: 0;
-    padding: 0;
-  }
-
-  .wrap {
+    padding: 0px;
+    margin: 0px;
+    font-style: none;
     
-    max-width: 100%;
-    height: auto;
-    background-color: #ffa;
+
+  }
+
+  /* main page */
+  .wrap {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #fefec2;
+    box-sizing: border-box;
+
+  }
+
+  h1 {
     display: flex;
-    font-size: 0;
-    flex-wrap: wrap;
-    position: relative;
-  }
-
-  .item {
-    width: auto;
-    height: auto;
-    margin: 10px 10px;
-    font-size: 16px;
-  }
-
-
-  .item h1 {
-
-    position: relative;
+    justify-content: center;
+    align-items: center;
     color: green;
-
-    left:50px;
+    margin: 0px auto;
   }
 
+  /* hieght 跟 item 內容自動 */
+  .item {
+    width: 340px;
+    height: 100%;
+    margin: 10px auto;
+
+
+  }
+
+  /* 照片大小固定 */
   .pic {
-    max-width: 700px;
-    height: auto;
-    float: left;
-    margin: 10px 50px 0px 50px;
+
+    font-size: 0;
+    width: 340px;
+    height: 100%;
+
   }
-img {
-  width: 100%;
-  height: 100%;
 
-}
-.text{
-  margin: 50px 50px 0px 50px;
+  .pic img {
+    font-size: 0px;
+    max-width: 100%;
+    max-height: 100%;
+  }
 
-}
+  .pic~p {
+
+    padding: 10px 20px;
+    width: 300px;
+    color: red;
+
+  }
 
 
+  /*
+  @media screen and (max-width:420px){
+    .wrap{
+      background-color: red;
+    }
+  } */
 </style>
+
 
 <body>
 
+
+
+
+
+
   <div class="wrap">
 
+    <h1>作品集</h1>
+
+
+
+
+
+
     <div class="item">
-      <h1>title</h1>
+
       <div class="pic">
         <img src="S__46243842.jpg" alt="">
       </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <p>1. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
-
-
     <div class="item">
-      <h1>title</h1>
+
       <div class="pic">
         <img src="S__46243844.jpg" alt="">
       </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <p>1. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="item">
-      <h1>title</h1>
+
       <div class="pic">
         <img src="S__46243845.jpg" alt="">
       </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <p>1. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="item">
-      <h1>title</h1>
+
       <div class="pic">
         <img src="S__46243846.jpg" alt="">
       </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <p>1. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
     <div class="item">
-      <h1>title</h1>
+
       <div class="pic">
         <img src="S__46243847.jpg" alt="">
       </div>
-      <div class="text">
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+      <p>1. Duis
+        aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
     </div>
 
+
+
+
+
+
+
   </div>
+
+
+
+
+
 
 
 
