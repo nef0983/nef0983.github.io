@@ -57,10 +57,10 @@
         <a class="nav-link " href="..\vue\index.html">線上菜單(Vue.js)</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="https://hiking.biji.co/">健行筆記</a>
+        <a class="nav-link d-none" href="https://hiking.biji.co/">健行筆記</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=65">天氣預報</a>
+        <a class="nav-link d-none" href="https://www.cwb.gov.tw/V8/C/W/County/County.html?CID=65">天氣預報</a>
       </li>
 
     </ul>
@@ -88,7 +88,7 @@
     <!-- title-img -->
     <!-- card -->
     <div class="container-fluid">
-      <h1 class="text-center">精選文章</h1>
+      <h1 class="text-center featured-text">精選文章</h1>
       <div class="row">
         <div class="col-12 col-sm-6 col-md-3">
 
@@ -154,7 +154,10 @@
   <script>
     $(function () {
       $('.slogan').hide();
-      $('.slogan').fadeIn(4000);
+      $('.slogan').fadeTo(3000,1);
+
+      $('.featured-text').hide()
+      $('.featured-text').slideDown(1000)
     })
 
 
