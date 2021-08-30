@@ -2,18 +2,23 @@
 
 var app = new Vue({
 
-  el: '#app',
+  el:'#app',
   tel:"",
   name:"",
   methods: {
 
-    hello: function () {
+    order: function () {
+
+      if(!this.name | !this.tel){
+        alert("請輸入電話與姓名")
+      }
+      else{
       alert("訂購成功 !"+"\r\r連絡電話 : "+app.tel+"\r聯絡姓名 : "+
-      app.name+"\r\r已訂購項目 : "+app.select+"\r\r\r稍後回電與您做最後確認 !"
-      
-      )
-      
+      app.name+"\r\r已訂購項目 : "+app.select+"\r\r\r稍後回電與您做最後確認 !"    
+      )         
     }
+
+  }
 
   },
   data: {
